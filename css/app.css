@@ -101,7 +101,7 @@ fieldset[disabled] .btn-sample.active {
 input.form-control:focus{
 	border-color:#4d00c3;
 	background-color: #dccdf2;
-	border: 2px solid;
+	border: 1px solid;
 }
 
 #search-bar{
@@ -260,6 +260,19 @@ legend{
 	}
 
 	.formualrio {
-        background: rgba(27, 16, 16, 0.42);
+        background: rgba(0, 0, 0, 0);
+    }
+    .fondo_mobile{
+    	background-image: url(../img/img-1920.png);
+	/*background-position:  center 0 ;*/
+    /*background-size: contain;*/
+	background-size: cover;
+    background-repeat: no-repeat;
+    height: 15rem;
+    /*background-position-x: inherit;*/
+
+    }
+    #header-container{
+    	background: #83778d;
     }
 }
